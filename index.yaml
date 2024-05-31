@@ -1,0 +1,25 @@
+arrow:
+  - delay: 0
+    duration: 1
+    repeat: 1
+    direction: normal
+    init:
+      x: 0
+      y: 0
+    move:
+      x: 150
+      y: 0
+    easing: linear
+
+seila:
+  - delay: 0
+    duration: 1
+    repeat: 1
+    direction: normal
+    init:
+      x: 0
+      y: 0
+    move:
+      x: 150
+      y: 0
+    easing: linear
