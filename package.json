@@ -14,19 +14,13 @@
   ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [
+    "commands": [],
+    "languages": [
       {
-        "command": "extension.showYamlMenu",
-        "title": "Navegar YAML"
-      },
-      {
-				"command": "extension.showYamlMenu",
-				"title": "Go Back",
-				"icon": {
-					"dark": "/img/svg/arrows/arrow-left-dark.svg",
-					"light": "/img/svg/arrows/arrow-left-light.svg"
-				}
-			}
+          "id": "yaml",
+          "extensions": [".yaml", ".yml"],
+          "aliases": ["YAML", "yaml"]
+      }
     ]
   },
   "scripts": {
