@@ -1,5 +1,4 @@
 const vscode = require('vscode');
-const yaml = require('js-yaml');
 
 // Função para analisar o arquivo YAML e extrair as propriedades com suas posições
 function parseYamlWithPositions(document) {
