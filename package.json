@@ -2,13 +2,28 @@
   "name": "yaml-navigator",
   "displayName": "YAML Navigator",
   "description": "YAML Breadcrumb Navigation Extension",
+  "publisher": "marceloxp",
+  "icon": "images/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "marceloxp",
+    "url": "https://github.com/marceloxp"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Linters",
+    "Snippets",
+    "Formatters"
   ],
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "pricing": "Free",
   "activationEvents": [
     "onLanguage:yaml"
   ],
@@ -18,8 +33,14 @@
     "languages": [
       {
         "id": "yaml",
-        "extensions": [".yaml", ".yml"],
-        "aliases": ["YAML", "yaml"]
+        "extensions": [
+          ".yaml",
+          ".yml"
+        ],
+        "aliases": [
+          "YAML",
+          "yaml"
+        ]
       }
     ]
   },
@@ -37,9 +58,7 @@
     "eslint": "^8.57.0",
     "typescript": "^5.4.5"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/marceloxp/yaml-navigator.git"
