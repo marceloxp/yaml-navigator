@@ -1,3 +1,5 @@
+# YAML Navigator — structure examples for breadcrumb/outline
+
 arrow:
   - delay: 0
     duration: 1
@@ -11,15 +13,34 @@ arrow:
       y: 0
     easing: linear
 
-seila:
-  - delay: 0
-    duration: 1
-    repeat: 1
-    direction: normal
-    init:
-      x: 0
-      y: 0
-    move:
-      x: 150
-      y: 0
-    easing: linear
+sample:
+  name: example
+  values:
+    - alpha
+    - beta
+    - gamma
+
+config:
+  database:
+    host: localhost
+    port: 5432
+    credentials:
+      user: admin
+      password: secret
+
+"key:with:colons":
+  value: works
+
+metadata:
+  version: 1.0.0
+  tags:
+    - animation
+    - ui
+
+root_list:
+  - item1: value1
+  - item2: value2
+
+empty:
+
+scalar_value: true
