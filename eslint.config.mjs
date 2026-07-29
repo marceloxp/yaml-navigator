@@ -28,7 +28,7 @@ const mochaGlobals = {
 
 export default defineConfig([
     {
-        ignores: ['node_modules/**'],
+        ignores: ['node_modules/**', '.vscode-test/**'],
     },
     {
         files: ['**/*.js'],
